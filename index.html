@@ -4,99 +4,172 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Miestna organizácia Hanušovce nad Topľou</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header class="site-header">
-    <div class="container nav">
-      <div class="logo">
-        <img src="logo.png" alt="Logo organizácie" />
-        <span>Miestna organizácia Hanušovce nad Topľou</span>
-      </div>
+    <div class="container header-inner">
+      <a href="#" class="brand">
+        <img src="logo.png" alt="Logo organizácie">
+      </a>
 
-      <nav>
+      <nav class="main-nav">
         <a href="#">Domov</a>
         <a href="#">O nás</a>
         <a href="#">Oznamy</a>
         <a href="#">Dokumenty</a>
+        <a href="#">Povolenky</a>
         <a href="#">Kontakt</a>
       </nav>
+
+      <a href="#" class="login-btn">Prihlásenie</a>
     </div>
   </header>
 
   <section class="hero">
     <div class="hero-overlay">
       <div class="container hero-content">
-        <h1>Miestna organizácia Hanušovce nad Topľou</h1>
-        <p>Vitajte na pripravovanej BETA verzii novej webovej stránky.</p>
-        <a href="#" class="btn">Pozrieť oznamy</a>
+        <div class="hero-box">
+          <h1>Miestna organizácia Hanušovce nad Topľou</h1>
+          <p>
+            Vitajte na oficiálnej stránke Miestnej organizácie
+            Slovenského rybárskeho zväzu v Hanušovciach nad Topľou.
+          </p>
+          <a href="#" class="primary-btn">Oznamy →</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="quick-links container">
-    <div class="card">
-      <h2>Aktuality</h2>
-      <p>Novinky, oznamy a dôležité informácie pre členov.</p>
-      <a href="#" class="btn-secondary">Viac</a>
-    </div>
-
-    <div class="card">
-      <h2>Dokumenty</h2>
-      <p>Povolenia, tlačivá, pravidlá a ďalšie dôležité dokumenty.</p>
-      <a href="#" class="btn-secondary">Viac</a>
-    </div>
-
-    <div class="card">
-      <h2>Kontakt</h2>
-      <p>Kontaktné údaje a základné informácie o organizácii.</p>
-      <a href="#" class="btn-secondary">Viac</a>
-    </div>
-  </section>
-
-  <section class="announcements container">
-    <h2>Najnovšie oznamy</h2>
-
-    <div class="announcement-list">
-      <article class="announcement">
-        <p class="date">20. apríl 2024</p>
-        <h3>Májová rybárska brigáda</h3>
-        <p>Ukážkový text oznamu. Neskôr sem doplníme reálne informácie zo stránky.</p>
-        <a href="#" class="btn-secondary">Čítať viac</a>
+  <main class="page-shell">
+    <section class="top-cards container">
+      <article class="feature-card">
+        <div class="feature-icon">📰</div>
+        <h2>Aktuality</h2>
+        <p>Novinky, oznamy a dôležité informácie pre členov organizácie.</p>
+        <a href="#" class="secondary-btn">Všetky oznamy →</a>
       </article>
 
-      <article class="announcement">
-        <p class="date">10. apríl 2024</p>
-        <h3>Povolenky a členstvo</h3>
-        <p>Ukážkový text oznamu. Tento blok bude slúžiť ako karta s dôležitou informáciou.</p>
-        <a href="#" class="btn-secondary">Čítať viac</a>
+      <article class="feature-card">
+        <div class="feature-icon">📄</div>
+        <h2>Povolenky</h2>
+        <p>Informácie o povoleniach, tlačivách a potrebných dokumentoch.</p>
+        <a href="#" class="secondary-btn">Zistiť viac →</a>
       </article>
 
-      <article class="announcement">
-        <p class="date">6. apríl 2024</p>
-        <h3>Zarybnenie revíru</h3>
-        <p>Ukážkový text oznamu. Farby a štýl neskôr doladíme podľa loga.</p>
-        <a href="#" class="btn-secondary">Čítať viac</a>
+      <article class="feature-card">
+        <div class="feature-icon">ℹ️</div>
+        <h2>Pre členov</h2>
+        <p>Užitočné informácie pre členov miestnej organizácie a rybárov.</p>
+        <a href="#" class="secondary-btn">Členské informácie →</a>
       </article>
-    </div>
-  </section>
+    </section>
+
+    <section class="section container">
+      <div class="section-head">
+        <h2>Najnovšie Oznamy</h2>
+        <a href="#" class="small-btn">Všetky oznamy →</a>
+      </div>
+
+      <div class="news-grid">
+        <article class="news-card">
+          <p class="news-date">22. apríl 2024</p>
+          <h3>Opravy rybníka</h3>
+          <p>
+            Dôležitý oznam o údržbe areálu a prácach vykonávaných v okolí rybníka.
+          </p>
+          <a href="#" class="secondary-btn">Viac informácií →</a>
+        </article>
+
+        <article class="news-card">
+          <p class="news-date">15. apríl 2024</p>
+          <h3>Výsledky rybárskej súťaže</h3>
+          <p>
+            Prehľad výsledkov poslednej súťaže a informácie o ďalšom termíne.
+          </p>
+          <a href="#" class="secondary-btn">Viac informácií →</a>
+        </article>
+
+        <article class="news-card">
+          <p class="news-date">4. apríl 2024</p>
+          <h3>Brigáda</h3>
+          <p>
+            Pozvánka na spoločnú brigádu a zoznam prác, ktoré je potrebné vykonať.
+          </p>
+          <a href="#" class="secondary-btn">Viac informácií →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container info-section">
+      <h2>Informácie pre Rybárov</h2>
+
+      <div class="info-grid">
+        <article class="info-card">
+          <div class="info-image">🐟</div>
+          <div>
+            <h3>Rybárske Pravidlá</h3>
+            <p>Základné pravidlá a pokyny pre rybolov v našich revíroch.</p>
+            <a href="#" class="secondary-btn">Viac informácií →</a>
+          </div>
+        </article>
+
+        <article class="info-card">
+          <div class="info-image">🌿</div>
+          <div>
+            <h3>Miestny Rybník</h3>
+            <p>Informácie o revíri, prístupe k vode a dôležitých upozorneniach.</p>
+            <a href="#" class="secondary-btn">Viac informácií →</a>
+          </div>
+        </article>
+
+        <article class="info-card">
+          <div class="info-image">📍</div>
+          <div>
+            <h3>Kontaktujte Nás</h3>
+            <p>Kontaktné údaje organizácie a základné informácie pre návštevníkov.</p>
+            <a href="#" class="secondary-btn">Viac informácií →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
 
   <footer class="site-footer">
-    <div class="container footer-content">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="logo.png" alt="Logo organizácie">
+        <div>
+          <h3>Miestna organizácia Hanušovce nad Topľou</h3>
+          <p>Pracovný vizuálny návrh novej webovej stránky.</p>
+        </div>
+      </div>
+
       <div>
-        <h3>Miestna organizácia Hanušovce nad Topľou</h3>
-        <p>Pracovný návrh novej webovej stránky.</p>
+        <h4>Domov</h4>
+        <ul class="footer-list">
+          <li><a href="#">O nás</a></li>
+          <li><a href="#">Oznamy</a></li>
+          <li><a href="#">Dokumenty</a></li>
+          <li><a href="#">Povolenky</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
       </div>
 
       <div>
         <h4>Kontakt</h4>
-        <p>Hanušovce nad Topľou</p>
-        <p>Sem doplníme email a ďalšie údaje.</p>
+        <ul class="footer-list">
+          <li>Záhradná 430/4, Hanušovce nad Topľou</li>
+          <li>mosrzhanusovce@gmail.com</li>
+          <li>+421 123 455 789</li>
+        </ul>
       </div>
     </div>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
